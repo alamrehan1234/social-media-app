@@ -1,1 +1,1 @@
-const feature = console.log("Feature updated 2nd time")
+const feature = console.log("Features")
