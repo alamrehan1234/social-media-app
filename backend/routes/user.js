@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router();
-const { getUserCnotroller, updateUserController,
+const { getUserController, updateUserController,
     followUserController, unfollowUserController,
     blockUserController, unBlockUserController,
     getBlocklistController, deleteUserController,
@@ -10,7 +10,7 @@ const { getUserCnotroller, updateUserController,
 const upload = require("../middlewares/upload")
 
 // GET USER
-router.get("/:userId", getUserCnotroller)
+router.get("/:userId", getUserController)
 // UPDATE USER
 router.put("/update/:userId", updateUserController)
 // FOLLOW USER
